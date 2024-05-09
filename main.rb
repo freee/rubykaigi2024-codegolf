@@ -16,10 +16,10 @@ m.each do |mapping|
   color = mapping[1]
 
   # Place the string in a 2x2 block
-  a[row][col] = [color, name[0]].reverse
-  a[row][col + 1] = [color, name[1]].reverse
-  a[row + 1][col] = [color, name[2]].reverse
-  a[row + 1][col + 1] = [color, name[3]].reverse
+  a[row][col] = [name[0], color]
+  a[row][col + 1] = [name[1], color]
+  a[row + 1][col] = [name[2], color]
+  a[row + 1][col + 1] = [name[3], color]
 end
 
 a.each { |row| puts row.map { |cell| "#{cell[1]}#{cell[0]}\e[0m" }.join }
