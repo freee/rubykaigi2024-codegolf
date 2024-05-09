@@ -61,6 +61,15 @@ Name of the city or town, color on the map (ANSI color code), X coordinate (colu
 南城市 43 2 9
 ```
 
+### Limitations
+
+- The size of the map is 10 rows by 8 columns
+- Parts that are not cities or towns (sea) are colorless
+- The names of cities and towns are all within 4 characters
+- The number of input lines is 26
+- 0 <= X <= 7 (Considering the right direction of the console as positive)
+- 0 <= Y <= 9 (Considering the downward direction of the console as positive)
+
 ### Output
 
 ```sh
