@@ -1,3 +1,10 @@
+# 勝手にコードゴルフ王選手権 in RubyKaigi 2024
+#
+# Copyright (c) freee K.K.
+#
+# This software is released under the MIT License.
+# http://opensource.org/licenses/mit-license.php
+
 m = []
 26.times do
   line = gets.split
